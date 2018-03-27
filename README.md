@@ -61,5 +61,8 @@ Run KafkaFileProducer and verify that data is loaded into Kafka using following 
 30.25,2.36427,10.6255,5.04302,2.07469,9.67259,5.67855,1.01104,-0.0771391,0.180579,-8.80487,-53.8846,-33.8556,1,0,0,0,33.625,-0.0571406,9.5774,-1.3451,-0.140908,9.57458,-1.16989,0.0564232,-0.0479727,-0.0264942,0.254743,-59.1773,16.4314,1,0,0,0,33,9.80826,0.549077,-0.536436,9.82569,0.667038,-0.197159,-0.0389267,-0.00497049,0.0120961,-131.191,10.3966,-7.53326,1,0,0,0,5
 ```
 
+## Run KafkaFileProducer using following maven command
+mvn exec:java -Dexec.mainClass=KafkaFileProducer
+
 ###Works Cited
 <https://github.com/apache/kafka>
